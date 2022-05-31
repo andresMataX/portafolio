@@ -519,6 +519,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100vw;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .border-4 {
   border-width: 4px;
 }
