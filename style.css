@@ -527,6 +527,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -609,6 +613,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-8 {
   border-width: 8px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-double {
