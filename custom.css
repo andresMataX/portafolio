@@ -4,7 +4,11 @@ body {
     font-family: 'Monda', sans-serif;
 }
 
-@media (max-width: 768px) {
+.borde-exterior {
+    border: double 30px black;
+}
+
+@media (max-width: 640px) {
     .borde-exterior {
         border: double 20px black;
     }
