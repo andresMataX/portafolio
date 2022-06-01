@@ -923,6 +923,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     order: 2;
   }
 
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -938,6 +946,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row {
