@@ -4,6 +4,8 @@ body {
     font-family: 'Monda', sans-serif;
 }
 
-.borde-exterior {
-    border: double 45px black;
+@media (max-width: 768px) {
+    .borde-exterior {
+        border: double 20px black;
+    }
 }
