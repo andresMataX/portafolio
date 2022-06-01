@@ -923,6 +923,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     order: 2;
   }
 
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:grid {
     display: grid;
   }
