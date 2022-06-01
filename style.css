@@ -595,6 +595,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -637,6 +641,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .grid-cols-2 {
