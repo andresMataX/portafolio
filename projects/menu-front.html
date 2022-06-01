@@ -11,7 +11,46 @@
 </head>
 
 <body>
-
+    <!-- Contenedor principal -->
+    <div class="container p-2 mx-auto">
+        <!-- Sección del hero/banner -->
+        <div class="borde-exterior p-5 flex flex-col items-center">
+            <a href="../index.html" style="display: inline-block;">
+                <h3 class="border-2 border-black text-md m-3 p-3 text-center md:text-lg">
+                    Index
+                </h3>
+            </a>
+            <h2 class="border-4 border-black text-xl p-3 text-center mb-5 font-bold md:text-5xl">
+                Front-End Projects
+            </h2>
+            <div id="projects" class="w-full flex flex-col items-center md:grid md:grid-cols-2">
+                <a href="#" class="w-full">
+                    <h3 class="border-2 border-black text-lg m-3 p-3 underline text-center md:text-2xl">
+                        HTML/CSS
+                    </h3>
+                </a>
+                <a href="js.html" class="w-full">
+                    <h3 class="border-2 border-black text-lg m-3 p-3 text-center md:text-2xl">
+                        JavaScript
+                    </h3>
+                </a>
+            </div>
+            <!-- Sección de lista de proyectos -->
+            <div class="border border-black mt-5">
+                <!-- Item -->
+                <div class="item-lista flex flex-col">
+                    <div class="descripcion border border-black">
+                        <h1 class="text-xl p-3 text-center font-bold md:text-5xl">Título Proyecto</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatibus quod cum
+                            aperiam tempore illo?</p>
+                    </div>
+                    <div class="imagen border border-black">
+                        <h2>Imagen</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
