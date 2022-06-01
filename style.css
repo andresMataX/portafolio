@@ -1000,6 +1000,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 3.5rem;
   }
 
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1064,5 +1072,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-16 {
     width: 4rem;
+  }
+
+  .lg\:w-2\/4 {
+    width: 50%;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
   }
 }
